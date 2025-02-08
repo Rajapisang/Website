@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajapisang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"> RAJAPISANG. </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cakes">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-dark text-white text-center py-5 banner">
+        <div class="container text-banner">
+            <h1>Welcome to Raja Pisang</h1>
+            <p>Cemilan disetiap momenmu</p>
+        </div>
+    </header>
+
+    <!-- Cakes Section -->
+    <section id="cakes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Menu</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/bung.jpg" class="card-img-top" alt="Cake">
+                        <div class="card-body">
+                            <h5 class="card-title">Pisang Kembung</h5>
+                            <p class="card-text">Varian Best Seller : Coklat Keju</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/nuget.jpg" class="card-img-top" alt="Cake">
+                        <div class="card-body">
+                            <h5 class="card-title">Pisang Nugget</h5>
+                            <p class="card-text"> Varian Best Seller : Tiramisu Oreo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/coklat.jpg" class="card-img-top" alt="Cake">
+                        <div class="card-body">
+                            <h5 class="card-title">Pisang Coklat</h5>
+                            <p class="card-text">Varian Best Seller : Coklat Kacang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+     <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Tentang Kami</h2>
+            <p class="text-center">Selamat datang di Raja Pisang – tempat terbaik untuk menikmati kelezatan pisang dalam berbagai bentuk yang menggugah selera! Kami bangga menyajikan berbagai macam olahan pisang yang tak hanya lezat, tetapi juga membuat ketagihan. 
+
+                Di Raja Pisang, kami mengolah pisang dengan cinta dan perhatian untuk memberikan rasa yang berbeda dari yang lain. Kami menyediakan berbagai varian, mulai dari Pisang Kembung yang gurih dan renyah, Pisang Nugget dengan lapisan tepung yang crispy, hingga Pisang Coklat yang dipadu dengan coklat leleh yang memanjakan lidah. 
+                
+                Kami berkomitmen untuk selalu menggunakan bahan-bahan terbaik dan menjaga kualitas produk kami agar setiap gigitan membawa kepuasan maksimal. Kami juga terus berinovasi untuk menghadirkan rasa baru yang bisa dinikmati oleh semua kalangan.
+                
+                Baik untuk camilan sehari-hari atau acara spesial, Raja Pisang siap menyempurnakan momen Anda dengan cita rasa pisang yang istimewa. 
+                
+                Mari bergabung dengan kami dalam perjalanan rasa yang tak terlupakan!
+                </p>
+        </div>
+     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Kontak</h2>
+            <div class="container mt-5">
+                <h2 class="text-center mb-4"></h2>
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Opsional" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Opsional" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Opsional" required></textarea>
+                            </div>
+                        </form>
+                        <div class="text-center mt-4">
+                            <a href="https://api.whatsapp.com/send?phone=6282136435971" class="btn btn-success" target="_blank">
+                                <i class="bi bi-whatsapp"></i> Kirim Pesan
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Raja Pisang. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
